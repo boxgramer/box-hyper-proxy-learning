@@ -1,0 +1,10 @@
+[package]
+name = "box-hyper-proxy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+http-body-util = "0.1.3"
+hyper = {version="1.6.0" ,features=["full"]}
+hyper-util = {version="0.1.16", features=["full"]}
+tokio ={version="1.47.0" , features=["full"]}
